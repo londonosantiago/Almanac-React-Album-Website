@@ -1,7 +1,7 @@
 {
   "name": "react-album",
   "version": "0.1.0",
-  "homepage": "https://londonosantiago.github.io/",
+  "homepage": "https://londonosantiago.github.io/Almanac-React-Album-Website",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
