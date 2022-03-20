@@ -6,7 +6,7 @@ import { Button } from './Button';
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <video src={video} autoPlay loop muted/>
+        <video src="https://github.com/londonosantiago/Almanac-React-Album-Website/raw/master/src/assets/HeroVideo.mp4" type="video/mp4" autoPlay loop muted/>
         <h1>ALMANAC</h1>
         <p>Donde están tus jugadores favoritos</p>
         <div className="hero-btns">
