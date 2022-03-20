@@ -1,3 +1,6 @@
+# Almanac React Album Website
+This project consists on a website that simulates a soccer player album and shows the players stats. It was created using ReactJS.
+
 ## Deployed url
 https://londonosantiago.github.io/Almanac-React-Album-Website
 
