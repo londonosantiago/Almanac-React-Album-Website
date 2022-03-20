@@ -1,0 +1,135 @@
+*{
+  font-family: Nunito, sans-serif;
+} 
+
+h5{
+  margin-top: 18px;
+}
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.player-container{
+  background-image: url(https://houm.com/_next/image?url=%2Fstatic%2Fimages%2Fpink-shape.png&w=3840&q=75);
+}
+
+p {
+  margin-top: -0.1rem;
+  margin-bottom: 0rem;
+}
+
+.card-image {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 30px 5px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} 
+
+.same-line{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 40%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .row {
+    margin-left: 10%;
+    margin-right: -10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 90%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .row {
+    margin-left: 15%;
+    margin-right: 8%;
+  }
+}
+
+.pagination{
+  margin: 20px
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #FF5000;
+  border-color: #FF5000;
+}
+
+.page-link{
+  color:#FF5000
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: #FF5000;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.page-link:focus {
+  z-index: 3;
+  color: #FF5000;
+  background-color: #e9ecef;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(255 80 0 / 25%);
+}
+
+.loading-spinner{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
